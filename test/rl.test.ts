@@ -32,7 +32,7 @@ const teacher = academy.addTeacher({
 });
 academy.assignTeacherToAgent(agent, teacher);
 
-describe("ReImprove - Real", () => {
+describe("Reinforcement Learning", () => {
     beforeEach(() => {
         academy.resetTeachersAndAgents();
     });

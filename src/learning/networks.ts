@@ -100,7 +100,7 @@ export class NeuralNetwork {
 }
 
 /**
- * @deprecated Do not use convolutional networks with ReImproveJS for now, they are not fully implemented and tested in
+ * @deprecated Do not use convolutional networks for now, they are not fully implemented and tested in
  * the library.
  */
 export class ConvolutionalNeuralNetwork extends NeuralNetwork {
