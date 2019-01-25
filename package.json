@@ -1,0 +1,47 @@
+{
+  "name": "tfjs-learning",
+  "version": "0.0.1",
+  "description": "A framework for using TensorFlow.js with Deep Reinforcement Learning",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "cross-env TF_CPP_MIN_LOG_LEVEL=1 mocha -r ts-node/register ./test/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RGBKnights/tfjs-learning.git"
+  },
+  "keywords": [
+    "TensorFlow",
+    "TensorFlow.js",
+    "Deep Reinforcement Learning"
+  ],
+  "author": "Jamie Webster <master@rgbknights.com> (venatiostudios.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RGBKnights/tfjs-learning/issues"
+  },
+  "homepage": "https://github.com/RGBKnights/tfjs-learning#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.5",
+    "@types/sinon": "^7.0.4",
+    "@types/sinon-chai": "^3.2.2",
+    "chai": "^4.2.0",
+    "cross-env": "^5.2.0",
+    "mocha": "^5.2.0",
+    "sinon": "^7.2.3",
+    "sinon-chai": "^3.3.0",
+    "ts-node": "^8.0.1",
+    "typescript": "^3.2.4"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^0.14.2",
+    "@tensorflow/tfjs-node": "^0.2.3",
+    "@types/lodash": "^4.14.120",
+    "@types/uuid": "^3.4.4",
+    "lodash": "^4.17.11",
+    "uuid": "^3.3.2"
+  }
+}
