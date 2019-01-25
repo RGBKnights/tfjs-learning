@@ -6,7 +6,7 @@
   "types": "build/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "cross-env TF_CPP_MIN_LOG_LEVEL=1 mocha -r ts-node/register ./test/*.ts"
+    "test": "cross-env TF_CPP_MIN_LOG_LEVEL=3 mocha -r ts-node/register ./test/*.ts"
   },
   "repository": {
     "type": "git",
@@ -38,7 +38,6 @@
   },
   "dependencies": {
     "@tensorflow/tfjs": "^0.14.2",
-    "@tensorflow/tfjs-node": "^0.2.3",
     "@types/lodash": "^4.14.120",
     "@types/uuid": "^3.4.4",
     "lodash": "^4.17.11",

@@ -20,5 +20,3 @@ export {QMatrix} from "./learning/algorithms/q/qmatrix";
 export {QTransition} from "./learning/algorithms/q/qtransition";
 
 export {setBackend} from "@tensorflow/tfjs";
-
-// require('@tensorflow/tfjs-node');
